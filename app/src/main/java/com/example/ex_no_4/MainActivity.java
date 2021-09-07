@@ -7,7 +7,6 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.app.AlertDialog.Builder;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -70,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
                 clearText();
             }
         });
+
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
